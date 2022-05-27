@@ -1,0 +1,6 @@
+.main_wrapper {
+    background-color: #070606;
+    background-image: url("./../assets/images/elipse1.png"), url("./../assets/images/elipse2.png"), url("./../assets/images/elipse3.png"), url("./../assets/images/dot-bg-1.png"), url("./../assets/images/dot-bg-2.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0px 0px, top right, right 70%, right 60%, left bottom;
+  }

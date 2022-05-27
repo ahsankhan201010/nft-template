@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,max-content) 1fr;
+    column-gap: 40px;
+    align-items: center;
+    border-top: 1px solid #818181;
+    padding-top: 20px;
+}
+
+.icon_container {
+    width: max-content;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    column-gap: 10px;
+}

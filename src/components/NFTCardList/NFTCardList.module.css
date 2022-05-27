@@ -1,0 +1,63 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,min-content);
+    justify-content: space-between;
+    row-gap: 50px;
+
+}
+
+.card_container {
+    width: 300px;  
+    padding: 20px;
+    display: grid;
+    row-gap: 20px;
+    background-image: url("./../../assets/images/nft-card-bg.png");
+    background-size: 100% 100%;
+}
+/* .card_container::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    background: red;
+    z-index: -1;
+} */
+
+
+.user_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card_user {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card_user_child_container {
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.starImg {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+
+}
+
+.nftImg {
+    width: 100%;
+}
+
+.card_price_child_container {
+
+}

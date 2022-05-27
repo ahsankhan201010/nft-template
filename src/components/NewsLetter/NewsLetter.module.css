@@ -1,0 +1,18 @@
+.pointerImg {
+    width: 30px;
+    transform: translateY(50%);
+}
+
+.underLiner {
+    position: relative;
+}
+
+.underLiner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}

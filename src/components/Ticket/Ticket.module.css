@@ -1,0 +1,12 @@
+.container {
+    background: linear-gradient(to right, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.ticketImg {
+    width: 400px;
+    transform: translateY(20px);
+}

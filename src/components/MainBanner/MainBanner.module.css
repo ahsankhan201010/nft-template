@@ -1,0 +1,60 @@
+.container {
+   min-height: 100vh;
+   display: grid;
+   grid-template-columns: min-content 1fr;
+}
+
+.main_nft_img {
+    width: 500px;
+    background: url("./../../assets/images/main-nft-bg.png");
+    background-size: 100%;
+    background-position: 50px 0px;
+}
+
+.content_wrapper {
+    padding-top: 80px;
+    display: grid;
+    justify-items: end;
+    align-content: start;
+    width: 80%;
+}
+
+.field_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.custom_input {
+    height: 60px;   
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    font-size: 32px;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.flex_item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ray_container {
+    position: relative;
+}
+
+.ray_container > img {
+    position: absolute
+}
+
+.ray_container > img:first-child {
+    transform: translate(-20px,-20px) rotate(-30deg);
+}
+
+.ray_container > img:last-child {
+    transform: translate(10px,25px) rotate(20deg);
+}
+
+
